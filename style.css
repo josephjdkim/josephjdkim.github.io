@@ -1,0 +1,78 @@
+body{
+	background-color: #F7F7F7;
+}
+a{
+	text-decoration: none; color:#00B1CA;
+}
+h1{
+	text-align: center; font-size: 48px;font-family: sans-serif;margin-top: 15px;margin-bottom: 0px; font-weight: normal;
+}
+h2{
+	font-weight: normal; font-family: Courier;
+}
+p{
+	font-size: 18px; padding: 10px;font-family: sans-serif;
+}
+ul{
+	font-family: sans-serif;	
+}
+.icons{
+	display:inline-block; height:100px; padding-left: 25px;
+}
+#page-heading{
+	padding-top: 50px; padding-bottom: 10px;
+}
+#page-heading p{
+	text-align: center; margin-top: 0px; margin-bottom: 50px;
+}
+#introduction{
+	padding-bottom: 100px;
+}
+#introduction h2{
+	margin:0px auto; max-width:850px;font-size: 36px;
+}
+#introduction p{
+	margin:0px auto; max-width:700px;
+}
+#languages{
+	padding-top: 20px; padding-bottom: 100px; background-color: #B9F8FF
+}
+#languages .icon-group{
+	text-align: center;
+}
+#languages h2{
+	margin: 0px auto; max-width:800px;font-size: 50px;
+}
+#languages ul{
+	margin: 20px auto; max-width:700px;font-size: 24px; line-height: 30px;
+}
+#other-skills{
+	padding-top: 20px; padding-bottom: 100px
+}
+#other-skills .icon-group{
+	text-align: center;
+}
+#other-skills h2{
+	margin: 0px auto; max-width:800px; font-size: 50px;
+}
+#other-skills ul{
+	margin: 20px auto; max-width:700px; font-size: 24px; line-height: 30px;
+}
+#education{
+	padding-top: 20px;padding-bottom: 100px;background-color: white
+}
+#education h2{
+	margin:0px auto; max-width:800px;font-size: 50px;
+}
+#education h3{
+	padding-top:40px; margin:0px auto; max-width:800px;font-size: 50px;color:indigo;
+}
+#education h4{
+	padding-top:0px; margin:-10px auto 0px; max-width:800px;font-size: 36px;color:gray;
+}
+#education h5{
+	margin:0px auto; max-width:750px;font-size: 24px;font-weight:normal;
+}
+#education ul{
+	margin: 20px auto; max-width:700px; font-size: 18px; line-height: 24px;
+}

@@ -10,6 +10,15 @@ h1{
 h2{
 	font-weight: normal; font-family: Courier;
 }
+h3{
+	font-weight: bold; font-family: sans-serif;
+}
+h4{
+	font-weight: bold; font-family: sans-serif;
+}
+h5{
+	font-weight: bold; font-family: sans-serif;
+}
 p{
 	font-size: 18px; padding: 10px;font-family: sans-serif;
 }
@@ -17,7 +26,7 @@ ul{
 	font-family: sans-serif;	
 }
 .icons{
-	display:inline-block; height:100px; padding-left: 25px;
+	display:inline-block; height:90px; padding-top: 10px; padding-left: 20px; padding-right: 20px;
 }
 #page-heading{
 	padding-top: 50px; padding-bottom: 10px;
@@ -29,22 +38,25 @@ ul{
 	padding-bottom: 100px;
 }
 #introduction h2{
-	margin:0px auto; max-width:850px;font-size: 36px;
+	margin:0px auto; max-width:800px;font-size: 36px; font-family: Courier;
 }
 #introduction p{
-	margin:0px auto; max-width:700px;
+	margin:0px auto; max-width:800px;
 }
 #languages{
 	padding-top: 20px; padding-bottom: 100px; background-color: #B9F8FF
 }
 #languages .icon-group{
-	text-align: center;
+	padding-top:20px; text-align: center;
 }
 #languages h2{
-	margin: 0px auto; max-width:800px;font-size: 50px;
+	margin: 0px auto; max-width:800px;font-size: 50px; font-family: sans-serif;
+}
+#languages h5{
+	margin:30px auto 0px; max-width:800px;font-size: 28px;
 }
 #languages ul{
-	margin: 20px auto; max-width:700px;font-size: 24px; line-height: 30px;
+	margin: 20px auto; max-width:750px;font-size: 24px; line-height: 30px; list-style-type: none;
 }
 #other-skills{
 	padding-top: 20px; padding-bottom: 100px
@@ -53,26 +65,26 @@ ul{
 	text-align: center;
 }
 #other-skills h2{
-	margin: 0px auto; max-width:800px; font-size: 50px;
+	margin: 0px auto; max-width:800px; font-size: 50px; font-family: sans-serif;
 }
 #other-skills ul{
 	margin: 20px auto; max-width:700px; font-size: 24px; line-height: 30px;
 }
 #education{
-	padding-top: 20px;padding-bottom: 100px;background-color: white
+	padding-top: 20px;padding-bottom: 100px;background-color:white;
 }
 #education h2{
-	margin:0px auto; max-width:800px;font-size: 50px;
+	margin:0px auto; max-width:800px;font-size: 50px; font-family: sans-serif;
 }
 #education h3{
 	padding-top:40px; margin:0px auto; max-width:800px;font-size: 50px;color:indigo;
 }
 #education h4{
-	padding-top:0px; margin:-10px auto 0px; max-width:800px;font-size: 36px;color:gray;
+	padding-top:0px; margin:-5px auto 0px; max-width:800px;font-size: 36px;color:gray;
 }
 #education h5{
-	margin:0px auto; max-width:750px;font-size: 24px;font-weight:normal;
+	margin:0px auto; max-width:800px;font-size: 24px;
 }
 #education ul{
-	margin: 20px auto; max-width:700px; font-size: 18px; line-height: 24px;
+	margin: 20px auto; max-width:700px; font-size: 24px; line-height: 30px;
 }

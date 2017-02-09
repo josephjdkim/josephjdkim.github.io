@@ -29,7 +29,7 @@ ul {
 	display: inline-block; height: 100px; padding-top: 20px; padding-left: 20px; padding-right: 20px;
 }
 .parallax {
-    min-height: 100px; 
+    min-height: 200px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed; 
@@ -53,15 +53,15 @@ ul {
 	padding-bottom: 50px;
 }
 #introduction h2{
-	margin: 0px auto; max-width: 800px; font-size: 42px; font-family: Courier; color: black;
+	margin: 0px auto; text-align: center; font-size: 42px; font-family: Courier; color: black;
 }
 
 #blinker {
 	margin: 0px auto;
 	white-space: nowrap;
 	overflow: hidden;
-	width: 30em;
-	animation: type 3s steps(60, end); 
+	width: 20em;
+	animation: type 5s steps(60, end); 
 }
 
 #blinker:nth-child(2){
@@ -171,4 +171,10 @@ ul {
 }
 #projects p {
 	margin: 20px auto; max-width: 700px; font-size: 24px; line-height: 30px;
+}
+footer .parallax {
+    background-image: url("para1.jpg");
+}
+footer p {
+	margin: 20px auto; text-align: center; font-size: 24px; line-height: 30px;
 }

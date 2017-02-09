@@ -5,13 +5,13 @@ a {
 	text-decoration: none; font-family: sans-serif;
 }
 h1 {
-	text-align: center; font-size: 48px; font-family: sans-serif; margin-top: 15px; margin-bottom: 0px; font-weight: normal;
+	text-align: center; font-size: 60px; font-family: sans-serif; margin-top: 15px; margin-bottom: 0px; font-weight: normal;
 }
 h2 {
 	font-weight: normal; font-family: Courier;
 }
 h3 {
-	font-weight: bold; font-family: sans-serif;
+	font-weight: bold; font-family: sans-serif; font-color: black;
 }
 h4 {
 	font-weight: bold; font-family: sans-serif;
@@ -20,7 +20,7 @@ h5 {
 	font-weight: bold; font-family: sans-serif;
 }
 p {
-	font-size: 24px; padding: 10px; font-family: sans-serif; line-height: 30px;
+	padding: 10px; font-family: sans-serif;
 }
 ul {
 	font-family: sans-serif; 	
@@ -38,13 +38,13 @@ ul {
     background-size: cover;
 }
 #page-heading {
-	padding-top: 50px; padding-bottom: 10px;
+	padding-top: 50px; padding-bottom: 80px;
 }
 #page-heading p {
-	text-align: center; margin-top: 0px; margin-bottom: 50px;
+	text-align: center; margin-top: 0px; margin-bottom: 0px; font-size: 40px;
 }
 #page-heading a {
-	font-weight: normal; color: #FF9CC5;
+	font-weight: normal; font-size: 40px; color: #FF9CC5;
 }
 #page-heading a:hover {
 	text-decoration: none; color: #FFCDE2;
@@ -52,11 +52,44 @@ ul {
 #introduction {
 	padding-bottom: 50px;
 }
-#introduction h2 {
-	margin: 0px auto; max-width: 800px; font-size: 36px; font-family: Courier;
+#introduction h2{
+	margin: 0px auto; max-width: 800px; font-size: 42px; font-family: Courier; color: black;
 }
+
+#blinker {
+	margin: 0px auto;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 30em;
+	animation: type 3s steps(60, end); 
+}
+
+#blinker:nth-child(2){
+	animation: type2 8s steps(60, end);
+}
+
+.blinker {
+	animation: blink 1s infinite;
+}
+
+@keyframes type { 
+	from { width: 0; } 
+} 
+
+@keyframes type2 {
+	0%{width: 0;}
+	50%{width: 0;}
+	100%{ width: 100; } 
+} 
+
+@keyframes blink {
+	to{opacity: .0;}
+}
+
+
+
 #introduction p {
-	margin: 0px auto; max-width: 800px;
+	margin: 0px auto; max-width: 800px; font-size: 28px; line-height: 36px;
 }
 #languages {
 	padding-top: 0px; padding-bottom: 100px; background-color: #FFECF4;
@@ -118,10 +151,16 @@ ul {
 #projects .parallax {
     background-image: url("para4.jpg");
 }
-#projects a {
-	padding-top: 0px; margin: 0px auto; max-width: 800px; font-weight: bold; font-size: 54px; color: black;
+#projects h3 {
+	padding-top: 0px; margin: 0px auto; max-width: 800px; font-size: 54px; color: black;
 }
 #projects a:hover {
+	text-decoration: none; color: #FFCDE2;
+}
+#projects a:visited {
+	text-decoration: none; color: black;
+}
+#projects a:visited:hover {
 	text-decoration: none; color: #FFCDE2;
 }
 #projects h2 {
@@ -131,5 +170,5 @@ ul {
 	font-weight: normal; padding-top: 0px; margin: 0px auto 0px; max-width: 800px; font-size: 32px; color: gray;
 }
 #projects p {
-	margin: 20px auto; max-width: 700px;
+	margin: 20px auto; max-width: 700px; font-size: 24px; line-height: 30px;
 }

@@ -1,59 +1,98 @@
 body {
-	background-color: #FCF7F5; margin: 0;
+	background-color: #FCF7F5;
+	margin: 0;
 }
 a {
-	text-decoration: none; font-family: sans-serif;
+	text-decoration: none;
+	font-family: sans-serif;
 }
 h1 {
-	text-align: center; font-size: 60px; font-family: sans-serif; margin-top: 15px; margin-bottom: 0px; font-weight: normal;
+	text-align: center;
+	font-size: 60px;
+	font-family: sans-serif;
+	margin-top: 15px;
+	margin-bottom: 0px;
+	font-weight: normal;
 }
 h2 {
-	font-weight: normal; font-family: Courier;
+	font-weight: normal;
+	font-family: Courier;
 }
 h3 {
-	font-weight: bold; font-family: sans-serif; font-color: black;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-color: black;
 }
 h4 {
-	font-weight: bold; font-family: sans-serif;
+	font-weight: bold;
+	font-family: sans-serif;
 }
 h5 {
-	font-weight: bold; font-family: sans-serif;
+	font-weight: bold;
+	font-family: sans-serif;
 }
 p {
-	padding: 10px; font-family: sans-serif;
+	padding: 10px;
+	font-family: sans-serif;
 }
 ul {
-	font-family: sans-serif; 	
+	font-family: sans-serif;
+
 }
 .icons {
-	display: inline-block; height: 100px; padding-top: 20px; padding-left: 20px; padding-right: 20px;
+	display: inline-block;
+	height: 100px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 .parallax {
-    min-height: 200px; 
+    min-height: 200px;
 
     /* Create the parallax scrolling effect */
-    background-attachment: fixed; 
-    background-position: center; 
-    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 #page-heading {
-	padding-top: 50px; padding-bottom: 80px;
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+#page-heading #main-logo {
+	width: 150px;
+	margin: 0px auto;
+}
+#page-heading #main-logo img {
+	width: 150px;
+	margin: 0px auto;
+	height: 75px;
+	display: inline-block;
 }
 #page-heading p {
-	text-align: center; margin-top: 0px; margin-bottom: 0px; font-size: 40px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 40px;
 }
 #page-heading a {
-	font-weight: normal; font-size: 40px; color: #FF9CC5;
+	font-weight: normal;
+	font-size: 40px;
+	color: #FF9CC5;
 }
 #page-heading a:hover {
-	text-decoration: none; color: #FFCDE2;
+	text-decoration: none;
+	color: #FFCDE2;
 }
 #introduction {
 	padding-bottom: 50px;
 }
 #introduction h2{
-	margin: 0px auto; text-align: center; font-size: 42px; font-family: Courier; color: black;
+	margin: 0px auto;
+	text-align: center;
+	font-size: 42px;
+	font-family: Courier;
+	color: black;
 }
 
 #blinker {
@@ -61,56 +100,68 @@ ul {
 	white-space: nowrap;
 	overflow: hidden;
 	width: 20em;
-	animation: type 5s steps(60, end); 
+	animation: type 2s steps(60, end);
 }
-
 #blinker:nth-child(2){
 	animation: type2 8s steps(60, end);
 }
-
 .blinker {
 	animation: blink 1s infinite;
 }
-
 @keyframes type { 
-	from { width: 0; } 
+	from {width: 0;} 
 } 
-
 @keyframes type2 {
 	0%{width: 0;}
 	50%{width: 0;}
-	100%{ width: 100; } 
+	100%{width: 100;} 
 } 
-
 @keyframes blink {
 	to{opacity: .0;}
 }
 
-
-
 #introduction p {
-	margin: 0px auto; max-width: 800px; font-size: 28px; line-height: 36px;
+	margin: 0px auto;
+	max-width: 800px;
+	font-size: 28px;
+	line-height: 36px;
 }
+
 #languages {
-	padding-top: 0px; padding-bottom: 100px; background-color: #FFECF4;
+	padding-top: 0px;
+	padding-bottom: 100px;
+	background-color: #FFECF4;
 }
 #languages .parallax {
     background-image: url("para1.jpg");
 }
 #languages .icon-group {
-	padding-top: 20px; text-align: center;
+	padding-top: 20px;
+	text-align: center;
 }
 #languages h2 {
-	margin: 40px auto; max-width: 800px; font-size: 64px; font-family: sans-serif;
+	margin: 40px auto;
+	max-width: 800px;
+	font-size: 64px;
+	font-family: sans-serif;
 }
 #languages h5 {
-	margin: 30px auto 0px; max-width: 800px; font-size: 36px;
+	margin: 30px auto 0px;
+	max-width: 800px;
+	font-size: 36px;
 }
 #languages ul {
-	margin: 20px auto; max-width: 750px; font-size: 32px; line-height: 30px; list-style-type: none;
+	margin: 20px auto;
+	max-width: 750px;
+	font-size: 36px;
+	line-height: 34px;
+	list-style-type: none;
 }
+
 #other-skills {
-	padding-top: 0px; padding-bottom: 100px; background-color: #EBEBEB
+	padding-top: 0px;
+	padding-bottom: 100px;
+	background-color: #EBEBEB
 }
 #other-skills .parallax {
     background-image: url("para2.jpg");
@@ -119,62 +170,111 @@ ul {
 	text-align: center;
 }
 #other-skills h2 {
-	margin: 40px auto; max-width: 800px; font-size: 64px; font-family: sans-serif;
+	margin: 40px auto;
+	max-width: 800px;
+	font-size: 64px;
+	font-family: sans-serif;
 }
 #other-skills ul {
-	margin: 20px auto; max-width: 700px; font-size: 32px; line-height: 42px;
+	margin: 20px auto;
+	max-width: 700px;
+	font-size: 36px;
+	line-height: 48px;
 }
+
 #education {
-	padding-top: 0px; padding-bottom: 100px; background-color: white;
+	padding-top: 0px;
+	padding-bottom: 100px;
+	background-color: white;
 }
 #education .parallax {
     background-image: url("para3.jpg");
 }
 #education h2 {
-	margin: 40px auto; max-width: 800px; font-size: 64px; font-family: sans-serif;
+	margin: 40px auto;
+	max-width: 800px;
+	font-size: 64px;
+	font-family: sans-serif;
 }
 #education h3 {
-	padding-top: 0px; margin: 0px auto; max-width: 800px; font-size: 54px; color: indigo;
+	padding-top: 0px;
+	margin: 0px auto;
+	max-width: 800px;
+	font-size: 54px;
+	color: indigo;
 }
 #education h4 {
-	padding-top: 0px; margin: -5px auto 0px; max-width: 800px; font-size: 46px; color: gray;
+	padding-top: 0px;
+	margin: -5px auto 0px;
+	max-width: 800px;
+	font-size: 46px;
+	color: gray;
 }
 #education h5 {
-	margin: 0px auto; max-width: 800px; font-size: 36px;
+	margin: 0px auto;
+	max-width: 800px;
+	font-size: 36px;
 }
 #education ul {
-	margin: 20px auto; max-width: 700px; font-size: 32px; line-height: 42px;
+	margin: 20px auto;
+	max-width: 700px;
+	font-size: 36px;
+	line-height: 48px;
 }
+
 #projects {
-	padding-top: 0px; padding-bottom: 100px; background-color: #FDF9EC;
+	padding-top: 0px;
+	padding-bottom: 100px;
+	background-color: #FDF9EC;
 }
 #projects .parallax {
     background-image: url("para4.jpg");
 }
 #projects h3 {
-	padding-top: 0px; margin: 0px auto; max-width: 800px; font-size: 54px; color: black;
+	padding-top: 0px;
+	margin: 0px auto;
+	max-width: 800px;
+	font-size: 54px;
+	color: black;
 }
 #projects a:hover {
-	text-decoration: none; color: #FFCDE2;
+	text-decoration: none;
+	color: #FFCDE2;
 }
 #projects a:visited {
-	text-decoration: none; color: black;
+	text-decoration: none;
+	color: black;
 }
 #projects a:visited:hover {
-	text-decoration: none; color: #FFCDE2;
+	text-decoration: none;
+	color: #FFCDE2;
 }
 #projects h2 {
-	margin: 40px auto; max-width: 800px; font-size: 64px; font-family: sans-serif;
+	margin: 40px auto;
+	max-width: 800px;
+	font-size: 64px;
+	font-family: sans-serif;
 }
 #projects h4 {
-	font-weight: normal; padding-top: 0px; margin: 0px auto 0px; max-width: 800px; font-size: 32px; color: gray;
+	font-weight: normal;
+	padding-top: 0px;
+	margin: 0px auto 0px;
+	max-width: 800px;
+	font-size: 32px;
+	color: gray;
 }
 #projects p {
-	margin: 20px auto; max-width: 700px; font-size: 24px; line-height: 30px;
+	margin: 20px auto;
+	max-width: 700px;
+	font-size: 24px;
+	line-height: 30px;
 }
 footer .parallax {
     background-image: url("para1.jpg");
 }
 footer p {
-	margin: 20px auto; text-align: center; font-size: 24px; line-height: 30px;
+	margin: 20px auto;
+	text-align: center;
+	font-size: 24px;
+	line-height: 30px;
 }

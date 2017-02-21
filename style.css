@@ -2,6 +2,9 @@ body {
 	background-color: #FCF7F5;
 	margin: 0;
 }
+::selection {
+	background: yellow;
+}
 a {
 	text-decoration: none;
 	font-family: sans-serif;
@@ -49,12 +52,12 @@ ul {
 .parallax {
     min-height: 200px;
 
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 #page-heading {
 	padding-top: 50px;
 	padding-bottom: 80px;
@@ -84,6 +87,7 @@ ul {
 	text-decoration: none;
 	color: #FFCDE2;
 }
+
 #introduction {
 	padding-bottom: 50px;
 }
@@ -127,13 +131,65 @@ ul {
 	line-height: 36px;
 }
 
-#languages {
+#projects {
 	padding-top: 0px;
 	padding-bottom: 100px;
 	background-color: #FFECF4;
 }
-#languages .parallax {
+#projects .parallax {
     background-image: url("para1.jpg");
+}
+#projects h3 {
+	padding-top: 0px;
+	margin: 0px auto;
+	max-width: 800px;
+	font-size: 54px;
+	color: black;
+}
+#projects a {
+	text-decoration: none;
+	color: black;
+}
+#projects a:hover {
+	text-decoration: none;
+	color: #FFCDE2;
+}
+#projects a:visited {
+	text-decoration: none;
+	color: black;
+}
+#projects a:visited:hover {
+	text-decoration: none;
+	color: #FFCDE2;
+}
+#projects h2 {
+	margin: 40px auto;
+	max-width: 800px;
+	font-size: 64px;
+	font-family: sans-serif;
+}
+#projects h4 {
+	font-weight: normal;
+	padding-top: 0px;
+	margin: 0px auto 0px;
+	max-width: 800px;
+	font-size: 32px;
+	color: gray;
+}
+#projects p {
+	margin: 20px auto;
+	max-width: 700px;
+	font-size: 24px;
+	line-height: 30px;
+}
+
+#languages {
+	padding-top: 0px;
+	padding-bottom: 100px;
+	background-color: #FDF9EC;
+}
+#languages .parallax {
+    background-image: url("para4.jpg");
 }
 #languages .icon-group {
 	padding-top: 20px;
@@ -222,53 +278,6 @@ ul {
 	line-height: 48px;
 }
 
-#projects {
-	padding-top: 0px;
-	padding-bottom: 100px;
-	background-color: #FDF9EC;
-}
-#projects .parallax {
-    background-image: url("para4.jpg");
-}
-#projects h3 {
-	padding-top: 0px;
-	margin: 0px auto;
-	max-width: 800px;
-	font-size: 54px;
-	color: black;
-}
-#projects a:hover {
-	text-decoration: none;
-	color: #FFCDE2;
-}
-#projects a:visited {
-	text-decoration: none;
-	color: black;
-}
-#projects a:visited:hover {
-	text-decoration: none;
-	color: #FFCDE2;
-}
-#projects h2 {
-	margin: 40px auto;
-	max-width: 800px;
-	font-size: 64px;
-	font-family: sans-serif;
-}
-#projects h4 {
-	font-weight: normal;
-	padding-top: 0px;
-	margin: 0px auto 0px;
-	max-width: 800px;
-	font-size: 32px;
-	color: gray;
-}
-#projects p {
-	margin: 20px auto;
-	max-width: 700px;
-	font-size: 24px;
-	line-height: 30px;
-}
 footer .parallax {
     background-image: url("para1.jpg");
 }

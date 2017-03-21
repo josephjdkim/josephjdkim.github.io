@@ -16,31 +16,36 @@ h1 {
 	margin-top: 15px;
 	margin-bottom: 0px;
 	font-weight: normal;
+	color: black;
 }
 h2 {
 	font-weight: normal;
 	font-family: Courier;
+	color: black;
 }
 h3 {
 	font-weight: bold;
 	font-family: sans-serif;
-	font-color: black;
+	color: black;
 }
 h4 {
 	font-weight: bold;
 	font-family: sans-serif;
+	color: black;
 }
 h5 {
 	font-weight: bold;
 	font-family: sans-serif;
+	color: black;
 }
 p {
 	padding: 10px;
+	color: black;
 	font-family: sans-serif;
 }
 ul {
 	font-family: sans-serif;
-
+	color: black;
 }
 .icons {
 	display: inline-block;
@@ -91,12 +96,12 @@ ul {
 #introduction {
 	padding-bottom: 50px;
 }
+
 #introduction h2{
 	margin: 0px auto;
 	text-align: center;
 	font-size: 42px;
 	font-family: Courier;
-	color: black;
 }
 
 #blinker {
@@ -144,7 +149,6 @@ ul {
 	margin: 0px auto;
 	max-width: 800px;
 	font-size: 54px;
-	color: black;
 }
 #projects a {
 	text-decoration: none;
@@ -152,7 +156,7 @@ ul {
 }
 #projects a:hover {
 	text-decoration: none;
-	color: #FFCDE2;
+	color: 
 }
 #projects a:visited {
 	text-decoration: none;

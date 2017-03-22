@@ -55,7 +55,7 @@ ul {
 	padding-right: 20px;
 }
 .parallax {
-    min-height: 200px;
+    min-height: 50px;
 
     background-attachment: fixed;
     background-position: center;
@@ -94,6 +94,7 @@ ul {
 }
 
 #introduction {
+	margin-bottom: 50px;
 	padding-bottom: 50px;
 }
 
@@ -139,7 +140,7 @@ ul {
 #projects {
 	padding-top: 0px;
 	padding-bottom: 100px;
-	background-color: #FFECF4;
+	background-color: #FFF2F7;
 }
 #projects .parallax {
     background-image: url("para1.jpg");
@@ -152,15 +153,15 @@ ul {
 }
 #projects a {
 	text-decoration: none;
-	color: black;
+	color: #FF9CC5;
 }
 #projects a:hover {
 	text-decoration: none;
-	color: 
+	color: #FFCDE2;
 }
 #projects a:visited {
 	text-decoration: none;
-	color: black;
+	color: #FF9CC5;
 }
 #projects a:visited:hover {
 	text-decoration: none;

@@ -1,0 +1,90 @@
+body {
+	background-color: #EEEEEE;
+	margin: 0px;
+
+}
+#top {
+	margin: 0px auto;
+	padding-top: 10px;
+}
+#top h1 {
+	text-align: center;
+	padding-top: 10px;
+	margin: 0px auto;
+	max-width: 1000px;
+	font-size: 36px;
+}
+#top h2 {
+	text-align: center;
+	padding-top: 10px;
+	margin: 0px auto;
+	max-width: 1000px;
+	font-size: 28px;
+}
+#top a {
+	text-decoration: none;
+	color: #202020;
+}
+#top a:hover {
+	text-decoration: underline;
+	color: #202020;
+}
+#stuff {
+	margin: 0px auto;
+	padding-top: 10px;
+}
+#stuff h2 {
+	padding-top: 10px;
+	margin: 0px auto;
+	max-width: 1000px;
+	font-size: 28px;
+}
+#stuff h3 {
+	padding-top: 10px;
+	max-width: 900px;
+	font-size: 28px;
+}
+#stuff h4 {
+	padding-top: 10px;
+	margin: 0px auto 10px;
+	max-width: 850px;
+	font-size: 28px;
+	font-weight: normal;
+	font-style: italic;
+}
+#stuff p {
+	padding-top: 0px;
+	margin: 0px auto;
+	font-size: 20px;
+	line-height: 1.4;
+}
+#stuff a {
+	text-decoration: none;
+	color: #202020;
+}
+#stuff a:hover {
+	text-decoration: underline;
+	color: #202020;
+}
+#stuff #me h3 {
+	margin: 0px auto 10px;
+}
+#stuff #me p {
+	max-width: 850px;
+}
+#stuff #more h3 {
+	margin: 0px auto;
+}
+#stuff #more p {
+	max-width: 800px;
+}
+#bottom {
+	margin: 0px 200px;
+	padding-top: 10px;
+}
+#bottom img {
+	width: 750px;
+	height: 500px;
+	margin: 0px auto;
+	display: inline-block;
+}

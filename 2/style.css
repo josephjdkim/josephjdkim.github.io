@@ -4,18 +4,23 @@ body {
 
 }
 #top {
-	margin: 0px auto;
+	text-align: center;
+	margin: 20px auto 0px;
 	padding-top: 10px;
 }
+#top img {
+	width: 150px;
+	height: 75px;
+	margin: 0px auto;
+	display: inline-block;
+}
 #top h1 {
-	text-align: center;
 	padding-top: 10px;
 	margin: 0px auto;
 	max-width: 1000px;
 	font-size: 36px;
 }
 #top h2 {
-	text-align: center;
 	padding-top: 10px;
 	margin: 0px auto;
 	max-width: 1000px;
@@ -37,25 +42,25 @@ body {
 	padding-top: 10px;
 	margin: 0px auto;
 	max-width: 1000px;
-	font-size: 28px;
+	font-size: 32px;
 }
 #stuff h3 {
 	padding-top: 10px;
 	max-width: 900px;
-	font-size: 28px;
+	font-size: 32px;
 }
 #stuff h4 {
 	padding-top: 10px;
 	margin: 0px auto 10px;
 	max-width: 850px;
-	font-size: 28px;
+	font-size: 32px;
 	font-weight: normal;
 	font-style: italic;
 }
 #stuff p {
 	padding-top: 0px;
 	margin: 0px auto;
-	font-size: 20px;
+	font-size: 24px;
 	line-height: 1.4;
 }
 #stuff a {
@@ -79,8 +84,8 @@ body {
 	max-width: 800px;
 }
 #bottom {
-	margin: 0px 200px;
-	padding-top: 10px;
+	text-align: center;
+	padding-top: 50px;
 }
 #bottom img {
 	width: 750px;

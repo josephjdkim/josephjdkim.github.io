@@ -102,7 +102,9 @@ ul {
 	margin: 0px auto;
 	text-align: center;
 	font-size: 42px;
-	font-family: Courier;
+	font-family: sans-serif;
+	font-style: italic;
+	font-weight: bold;
 }
 
 #blinker {
@@ -135,6 +137,7 @@ ul {
 	max-width: 800px;
 	font-size: 28px;
 	line-height: 36px;
+	text-align: center;
 }
 
 #projects {

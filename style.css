@@ -60,6 +60,7 @@ p {
 #header-links a {
 	font-weight: normal;
 	color: #6d6d6d;
+	padding: 0px 10px;
 }
 #header-links a:hover {
 	text-decoration: none;

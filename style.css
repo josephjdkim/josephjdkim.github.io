@@ -16,7 +16,7 @@ h1 {
 }
 h2 {
 	font-weight: normal;
-	font-family: sans-serif;
+	font-family: serif;
 	color: black;
 }
 p {
@@ -74,9 +74,9 @@ p {
 
 #meat1 h2 {
 	margin: 0px auto 12px;
-	text-align: left;
-	font-size: 24px;
-	font-family: serif;
+	text-align: center;
+	font-style: italic;
+	font-size: 36px;
 	font-weight: bold;
 }
 
@@ -84,6 +84,8 @@ p {
 	margin: 0px auto 16px;
 	max-width: 750px;
 	font-size: 16px;
+	text-indent: 32px;
+	text-align: justify;
 }
 
 #photos {

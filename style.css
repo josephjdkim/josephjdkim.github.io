@@ -47,14 +47,14 @@ p {
 }
 #header-links {
 	max-width: 800px;
-	border-top: 1px solid #adadad;
+	border-top: 2px solid black;
 	border-bottom: 1px solid #adadad;
 }
 #header-links p {
 	text-align: center;
 	font-size: 16px;
 	color: #6d6d6d;
-	margin: 5px auto 5px;
+	margin: 6px auto;
 	font-family: sans-serif;
 }
 #header-links a {
@@ -82,6 +82,7 @@ p {
 #meat1 p {
 	margin: 0px auto 16px;
 	max-width: 750px;
+	font-size: 16px;
 }
 
 #photos {
@@ -95,11 +96,17 @@ p {
 	display: inline-block;
 }
 
+footer {
+	max-width: 800px;
+	margin: 75px auto 10px;
+	border-top: 1px solid #adadad;
+}
+
 footer p {
 	display: block;
-	margin: 20px auto;
+	margin: 5px auto;
 	text-align: center;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 30px;
 	color: #adadad;
 	font-family: sans-serif;

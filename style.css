@@ -89,6 +89,34 @@ p {
 	text-align: justify;
 }
 
+#show-more {
+	margin: 0px auto;
+	padding: 0px;
+	width: 100px;
+	font-style: italic;
+	text-align: center;
+}
+#show-more p {
+	color: #6d6d6d;
+}
+#show-more p:hover {
+	color: #adadad;
+}
+
+#expanded {
+	text-align: center;
+	display: none;
+	max-width: 550px;
+	margin: 20px auto;
+}
+
+#expanded p {
+	margin: 0px auto 16px;
+	font-size: 16px;
+	text-indent: 32px;
+	text-align: justify;
+}
+
 #photos {
 	margin: 20px auto;
 	max-width: 550px;

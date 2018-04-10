@@ -95,6 +95,7 @@ p {
 	width: 100px;
 	font-style: italic;
 	text-align: center;
+	cursor: default;
 }
 #show-more p {
 	color: #6d6d6d;

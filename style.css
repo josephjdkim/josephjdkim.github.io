@@ -1,3 +1,8 @@
+/*
+DESIGNED AND CREATED BY JOSEPH KIM
+JOSEPHJDKIM@GMAIL.COM
+COPYRIGHT 2019
+*/
 @charset "UTF-8";
 /* CSS Document */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
@@ -12,76 +17,81 @@ body {
 	background: darkorange;
 }
 h1 {
-	font-size: 6vw;
-	margin: 0vw auto;
+	font-size: 4em;
+	margin: 0em auto;
 	font-weight: normal;
 }
 h2 {
-	font-size: 4vw;
-	margin: 0vw auto;
+	font-size: 3em;
+	margin: 0em auto;
 	font-weight: normal;
 }
 h3 {
-	font-size: 3vw;
-	margin: 0vw auto;
+	font-size: 3em;
+	margin: 0em auto;
 }
 p {
-	font-size: 2vw;
-	margin: 0vw auto;
+	font-size: 2em;
+	margin: 0em auto;
 }
 ul {
-	font-size: 2vw;
+	font-size: 2em;
 	list-style: none;
-	margin: 0vw auto;
+	margin: 0em auto;
+	padding: 0em;
 }
 a {
+	margin: 0em auto;
 	text-decoration: none;
 	color: white;
 }
+a:hover {
+	text-decoration: underline;
+}
+#top {
+	margin: 1em 1em auto;
+}
 #logo {
-	margin: 4vw auto 0vw 2vw;
-	width: 15vw;
+	margin: 4em auto 0em 2em;
+	width: 14em;
 }
 #name {
-	margin: 0vw auto 0vw 1.5vw;
-	max-width: 84vw;
+	margin: 0em auto 0em 1.5em;
+	max-width: 84em;
 }
 .imp{
 	font-weight: bolder;
 }
 #intro {
-	margin: 0vw auto 0vw 1.5vw;
-	max-width: 84vw;
+	margin: 0em auto 0em 1.5em;
+	max-width: 84em;
 }
-.bottom {
+#bottom {
 	display: flex;
+	flex-wrap: wrap;
 }
 #i-like {
-	margin: 3.2vw 0vw 0vw 6vw;
+	text-align: left;
+	margin: 3.2em 0em 0em 6em;
 }
 #things{
-	margin: 2vw auto 0vw 3vw;
+	margin: 2em 0em 2em 6em;
+	width: 25em;
 }
 #links {
-	margin: -1vw 1vw 0vw auto;
+	margin: 1em 5em 2em auto;
 	text-align: right;
-	height: 18vw;
-}
-#links a:hover {
-	text-decoration: underline;
-	font-size: 3vw;
+	height: 18em;
+	width: 25em;
 }
 #photo {
-	height: 25vw;
+	height: 25em;
 	width: auto;
-	left: 40vw;
-	top: 15vw;
+	right: 15em;
+	top: 50%;
 	position: absolute;
 	z-index: -1;
 }
 footer {
 	text-align: center;
-}
-footer a:hover {
-	text-decoration: underline;
 }

@@ -1,97 +1,52 @@
-/*
-DESIGNED AND CREATED BY JOSEPH KIM
-JOSEPHJDKIM@GMAIL.COM
-COPYRIGHT 2019
-*/
-@charset "UTF-8";
 /* CSS Document */
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@charset "UTF-8";
+/*@import url('https://fonts.googleapis.com/css?family=Roboto');*/
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: underline;
+  color: black;
+}
 
 body {
-	background-color: black;
-	color: white;
-	font-family: 'Roboto script=all rev=1', sans-serif;
-	font-weight: 500;
+  font-family: sans-serif;
+  background-color: #F2F2F2;
 }
+
 ::selection {
-	background: darkorange;
+  background: #E1DCE8;
 }
-h1 {
-	font-size: 4em;
-	margin: 0em auto;
-	font-weight: normal;
+
+.align {
+  display: flex;
+  width: 90vw;
+  height: 90vh;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
-h2 {
-	font-size: 3em;
-	margin: 0em auto;
-	font-weight: normal;
-}
-h3 {
-	font-size: 3em;
-	margin: 0em auto;
-}
-p {
-	font-size: 2em;
-	margin: 0em auto;
-}
-ul {
-	font-size: 2em;
-	list-style: none;
-	margin: 0em auto;
-	padding: 0em;
-}
-a {
-	margin: 0em auto;
-	text-decoration: none;
-	color: white;
-}
-a:hover {
-	text-decoration: underline;
-}
-#top {
-	margin: 1em 1em auto;
-}
-#logo {
-	margin: 4em auto 0em 2em;
-	width: 14em;
-}
-#name {
-	margin: 0em auto 0em 1.5em;
-	max-width: 84em;
-}
-.imp{
-	font-weight: bolder;
-}
+
 #intro {
-	margin: 0em auto 0em 1.5em;
-	max-width: 84em;
+  margin: 25vh 0vh 0vh 100px;
+  max-width: 600px;
+  font-size: 32px;
 }
-#bottom {
-	display: flex;
-	flex-wrap: wrap;
-}
-#i-like {
-	text-align: left;
-	margin: 3.2em 0em 0em 6em;
-}
-#things{
-	margin: 2em 0em 2em 6em;
-	width: 25em;
-}
+
 #links {
-	margin: 1em 5em 2em auto;
-	text-align: right;
-	height: 18em;
-	width: 25em;
+  margin: 8vh 0vh 0vh 100px;
+  width: 100vw;
+  font-size: 24px;
 }
+
 #photo {
-	height: 25em;
-	width: auto;
-	right: 15em;
-	top: 50%;
-	position: absolute;
-	z-index: -1;
-}
-footer {
-	text-align: center;
+  height: 240px;
+  width: auto;
+  left: 75vw;
+  top: 50vh;
+  position: absolute;
+  z-index: -1;
 }

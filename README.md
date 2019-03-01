@@ -1,2 +1,0 @@
-# josephjdkim.github.io
-josephjdkim

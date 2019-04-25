@@ -1,6 +1,11 @@
 /* CSS Document */
 @charset "UTF-8";
-/*@import url('https://fonts.googleapis.com/css?family=Roboto');*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html {
+  font-family: 'Roboto', sans-serif;
+  background-color: #F2F2F2;
+}
 
 ul {
   list-style: none;
@@ -10,11 +15,6 @@ ul {
 a {
   text-decoration: underline;
   color: black;
-}
-
-body {
-  font-family: sans-serif;
-  background-color: #F2F2F2;
 }
 
 ::selection {
@@ -28,16 +28,17 @@ body {
   align-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin: auto;
 }
 
 #intro {
-  margin: 25vh 0vh 0vh 100px;
-  max-width: 600px;
-  font-size: 32px;
+  margin: 25vh 0vw 0vh 8vw;
+  max-width: 60vw;
+  font-size: 36px;
 }
 
 #links {
-  margin: 8vh 0vh 0vh 100px;
+  margin: 8vh 0vw 0vh 8vw;
   width: 100vw;
   font-size: 24px;
 }
@@ -45,8 +46,50 @@ body {
 #photo {
   height: 240px;
   width: auto;
-  left: 75vw;
   top: 50vh;
+  left: 75vw;
   position: absolute;
   z-index: -1;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+@media screen and (max-width: 945px) and (min-width: 701px) {
+  #intro {
+    margin: 12vh 8vw 0vh 8vw;
+    max-width: 80vw;
+    font-size: 32px;
+  }
+  #links {
+    margin: 0vh 8vw 0vh 8vw;
+    font-size: 32px;
+  }
+
+  #photo {
+    top: 60vh;
+    width: 20vh;
+    height: auto;
+    left: 45vw;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #intro {
+    margin: 12vh 8vw 0vh 8vw;
+    max-width: 80vw;
+    font-size: 6.5vw;
+  }
+  #links {
+    margin: 0vh 8vw 0vh 8vw;
+    font-size: 6.5vw;
+  }
+
+  #photo {
+    top: 60vh;
+    width: 20vh;
+    height: auto;
+    left: 45vw;
+  }
 }

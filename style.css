@@ -93,3 +93,22 @@ a {
     left: 45vw;
   }
 }
+
+@media screen and (max-width: 700px) {
+  #intro {
+    margin: 0vh 8vw 0vh 8vw;
+    max-width: 80vw;
+    font-size: 4.2vw;
+  }
+  #links {
+    margin: 0vh 8vw 0vh 8vw;
+    font-size: 4.2vw;
+  }
+
+  #photo {
+    top: 50vh;
+    width: 20vh;
+    height: auto;
+    left: 45vw;
+  }
+}

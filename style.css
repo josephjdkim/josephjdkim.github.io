@@ -58,7 +58,7 @@ a {
 
 @media screen and (max-width: 945px) and (min-width: 701px) {
   #intro {
-    margin: 12vh 8vw 0vh 8vw;
+    margin: 8vh 8vw 0vh 8vw;
     max-width: 80vw;
     font-size: 32px;
   }
@@ -77,7 +77,7 @@ a {
 
 @media screen and (max-width: 700px) {
   #intro {
-    margin: 12vh 8vw 0vh 8vw;
+    margin: 8vh 8vw 0vh 8vw;
     max-width: 80vw;
     font-size: 6.5vw;
   }

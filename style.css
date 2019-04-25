@@ -77,7 +77,7 @@ a {
 
 @media screen and (max-width: 700px) {
   #intro {
-    margin: 6vh 8vw 0vh 8vw;
+    margin: 0vh 8vw 0vh 8vw;
     max-width: 80vw;
     font-size: 6.5vw;
   }
@@ -87,7 +87,7 @@ a {
   }
 
   #photo {
-    top: 55vh;
+    top: 50vh;
     width: 20vh;
     height: auto;
     left: 45vw;

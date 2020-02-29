@@ -86,7 +86,7 @@ li {
   vertical-align: middle;
 }
 .blue-bar {
-  width: 50%;
+  width: 80%;
   height: 8rem;
   margin: 8rem auto 0;
   position: relative;
@@ -172,10 +172,56 @@ li {
 }
 
 /* tablet landscape */
-@media screen and (max-width:1200px) {}
+@media screen and (max-width:1200px) {
+  .about-page {
+    height: 120vh;
+  }
+  
+  .outside {
+    position: absolute;
+    height: 88%;
+    width: auto;
+    right: 8%;
+    top: 6%;
+  }
+  
+  .about-text {
+    width: 65%;
+    position: relative;
+    top: 10%;
+    z-index: 2;
+    color: #ffffff;
+  }
+
+  .color-block {
+    height: 12rem;
+    width: 12rem;
+    position: absolute;
+  }
+
+  .lavender-block {
+    top: -1rem;
+    right: 4rem;
+    background-color: #CAC8D5;
+  }
+  
+  .grey-block {
+    top: 1rem;
+    right: 2rem;
+    background-color: #D1D1D1;
+  }
+}
 
 /* tablet portrait */
-@media screen and (max-width:900px) {å}
+@media screen and (max-width:900px) {
+  .nav li {
+    margin: 0 1rem;
+  }
+
+  .blue-bar {
+    width: 90%;
+  }
+}
 
 /* phone portrait */
 @media screen and (max-width:600px) {
@@ -216,11 +262,6 @@ li {
     top: 2rem;
   }
 
-  .nav li {
-    margin: 0 1rem;
-    display: inline-block;
-  }
-
   .hero {
     margin: 12rem auto 0rem;
     position: -webkit-sticky;
@@ -234,42 +275,24 @@ li {
   }
 
   .blue-bar {
-    width: 80%;
     height: 3rem;
-    margin: 10vh auto 0;
-    position: relative;
+    margin: 10vh 5% 0;
+    position: absolute;
+    bottom: 10vh;
     z-index: 1;
     background-color: #9AA4B5;
   }
 
   .white-bar {
     height: 10vh;
+    position: absolute;
+    bottom: 0rem;
   }
 
   .polaroid {
     left: 1rem;
     top: -6rem;
     transform: rotate(-20deg) scale(0.5);
-  }
-
-  .about-page {
-    height: 120vh;
-  }
-  
-  .outside {
-    position: absolute;
-    height: 88%;
-    width: auto;
-    right: 8%;
-    top: 6%;
-  }
-  
-  .about-text {
-    width: 70%;
-    position: relative;
-    top: 10%;
-    z-index: 2;
-    color: #ffffff;
   }
 
   .links-page {

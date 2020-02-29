@@ -1,35 +1,51 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109799374-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-109799374-1');
-  </script>
-  <meta charset="UTF-8">
-  <title>Joseph Kim</title>
-  <link rel="shortcut icon" href="flavicon.ico" type="image/x-icon"/>
-  <link rel="stylesheet" type="text/css" href="style.css"/>
-  <meta name="viewport" content="width=device-width">
-</head>
-
-<body>
-  <div class="align">
-    <div id="intro">
-      <p>Joseph Kim is a student at NYU studying computer science and philosophy.</p>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Joseph Kim</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="landing-page">
+      <nav class="nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="resume.pdf" target="_blank">Resume</a></li>
+          <li><a href="https://www.github.com/josephjdkim" target="_blank" >GitHub</a></li>
+          <li><a href="mailto:josephjdkim@gmail.com" target="_top">Email</a></li>
+        </ul>
+      </nav>
+      <header class="hero">
+        <h1>JOSEPH KIM</h1>
+        <h2>Software Engineer</h2>
+      </header>
+      <div><img class="fortress" src="pics/fortress.png"></div>    
+      <div class="blue-bar"></div>
+      <div class="white-bar"></div>
     </div>
-
-    <div id="links">
-      <ul>
-        <li><a href="resume.pdf" target="_blank" >resume</a></li>
-        <li><a href="https://www.github.com/josephjdkim" target="_blank" >GitHub</a></li>
-        <li><a href="mailto:josephjdkim@gmail.com" target="_top">email</a></li>
-      </ul>
+    <div class="about-page" id="about">
+      <img class="polaroid" src="pics/polaroid1.png" alt="picture">
+      <img class="outside" src="pics/outside.jpg">
+      <div class="about-text">
+        <h3>About Me:</h3>
+        <p>My name is Joseph Kim and I am a senior at NYU majoring in computer science and minoring in philosophy.</p>
+      </div>
     </div>
-  </div>
-  <img id="photo" src="polaroid1.png" alt="picture">
-</body>
+    <div class="links-page">
+      <div class=" color-block lavender-block"></div>
+      <div class="color-block grey-block"></div>
+      <div class="links-text">
+        <h3>Interesting Links:</h3>
+        <ul>
+          <li><a href="resume.pdf" target="_blank">Resume</a></li>
+          <li><a href="https://www.github.com/josephjdkim" target="_blank" >GitHub</a></li>
+          <li><a href="mailto:josephjdkim@gmail.com" target="_top">Email</a></li>
+        </ul>
+      </div>
+      <img class="sculpture" src="pics/park_sculpture_long.png">
+    </div>
+  </body>
+</html>

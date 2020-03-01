@@ -61,7 +61,7 @@ li {
   position: -webkit-sticky;
   position: sticky;
   top: 3rem;
-  z-index: 0;
+  z-index: -1;
   text-align: center;
 }
 
@@ -75,6 +75,7 @@ li {
   position: -webkit-sticky;
   position: sticky;
   top: 7rem;
+  z-index: -1;
   text-align: center;
 }
 

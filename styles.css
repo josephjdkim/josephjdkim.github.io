@@ -61,7 +61,7 @@ li {
   position: -webkit-sticky;
   position: sticky;
   top: 3rem;
-  z-index: -1;
+  z-index: 1;
   text-align: center;
 }
 
@@ -75,7 +75,7 @@ li {
   position: -webkit-sticky;
   position: sticky;
   top: 7rem;
-  z-index: -1;
+  z-index: 1;
   text-align: center;
 }
 
@@ -91,14 +91,14 @@ li {
   height: 8rem;
   margin: 8rem auto 0;
   position: relative;
-  z-index: 1;
+  z-index: 2;
   background-color: #9AA4B5;
 }
 .white-bar {
   width: 100%;
   height: 8rem;
   position: relative;
-  z-index: 1;
+  z-index: 2;
   background-color: #ffffff;
 }
 
@@ -215,8 +215,16 @@ li {
 
 /* tablet portrait */
 @media screen and (max-width:900px) {
+  .nav {
+    position: static;
+  }
+
   .nav li {
     margin: 0 1rem;
+  }
+
+  .hero {
+    position: static;
   }
 
   .blue-bar {
@@ -258,16 +266,10 @@ li {
 
   .nav {
     margin-top: 2rem;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 2rem;
   }
 
   .hero {
     margin: 12rem auto 0rem;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 4rem;
     text-align: center;
   }
 

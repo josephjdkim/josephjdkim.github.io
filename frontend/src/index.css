@@ -26,7 +26,14 @@ body {
   font-size: 12px;
 }
 
-.App {
+.top {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.middle {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

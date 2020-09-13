@@ -3,8 +3,9 @@ import AboutContent from "./AboutContent";
 import ProjectsContent from "./ProjectsContent";
 
 function Content() {
+  
   return (
-    <div className="contet">
+    <div className="content">
       <AboutContent />
       <ProjectsContent />
     </div>

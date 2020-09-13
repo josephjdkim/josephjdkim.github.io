@@ -1,15 +1,67 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  background-color: black;
+  color: white;
+  margin: 0px;
+  text-align: left;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+p {
+  font-size: 3.5em;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+img {
+  width: 6em;
+  margin-right: 6em;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 12px;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 30%;
+  margin-top: 6em;
+  margin-bottom: 14em;
+  margin-left: 5%;
+  font-family: "Roboto";
+  font-style: italic;
+}
+
+.links {
+  width: 58%;
+  margin-top: 6em;
+  margin-bottom: 14em;
+  margin-right: 5%;
+}
+
+.navigation {
+  width: 30%;
+  margin-left: 5%;
+  font-size: 4em;
+}
+
+.content {
+  width: 58%;
+  margin-right: 5%;
+}
+
+.about-text {
+  margin-bottom: 1em;
 }
 
 .underline {

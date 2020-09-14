@@ -5,6 +5,10 @@
   text-align: left;
 }
 
+::selection {
+  background-color: blue;
+}
+
 p {
   font-size: 3.5em;
 }
@@ -41,8 +45,10 @@ body {
 }
 
 .logo {
+  /* min-width: 12em; */
   width: 30%;
   margin-top: 6em;
+  margin-right: 1%;
   margin-bottom: 14em;
   margin-left: 5%;
   font-family: "Roboto";
@@ -60,6 +66,15 @@ body {
   width: 30%;
   margin-left: 5%;
   font-size: 4em;
+}
+
+.nav-item {
+  color: white;
+}
+
+.nav-item:hover {
+  color: yellow;
+  cursor: pointer;
 }
 
 .content {

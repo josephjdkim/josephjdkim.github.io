@@ -17,11 +17,6 @@ h1 {
   font-size: 6em;
 }
 
-img {
-  width: 6em;
-  margin-right: 6em;
-}
-
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -37,6 +32,7 @@ body {
   justify-content: space-between;
 }
 
+
 .middle {
   display: flex;
   flex-direction: row;
@@ -45,8 +41,7 @@ body {
 }
 
 .logo {
-  /* min-width: 12em; */
-  width: 30%;
+  width: 26%;
   margin-top: 6em;
   margin-right: 1%;
   margin-bottom: 14em;
@@ -55,15 +50,24 @@ body {
   font-style: italic;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .links {
-  width: 58%;
+  width: 62%;
   margin-top: 6em;
   margin-bottom: 14em;
   margin-right: 5%;
 }
 
+.link-img {
+  width: 6em;
+  margin-right: 6em;
+}
+
 .navigation {
-  width: 30%;
+  width: 26%;
   margin-left: 5%;
   font-size: 4em;
 }
@@ -78,7 +82,7 @@ body {
 }
 
 .content {
-  width: 58%;
+  width: 62%;
   margin-right: 5%;
 }
 
@@ -86,6 +90,45 @@ body {
   margin-bottom: 1em;
 }
 
-.underline {
-  text-decoration: underline;
+.projects-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6em;
+}
+
+.project-card {
+  width: 100%;
+  margin-bottom: 4em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.project-video {
+  width: 48%;
+}
+
+.project-details {
+  width: 48%
+}
+
+.project-title {
+  font-size: 3.5em;
+  margin-bottom: 0.5em;
+}
+
+.project-desc {
+  font-size: 1.5em;
+}
+
+.more-projects {
+  font-size: 3.5em;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.more-projects:hover {
+  color: yellow;
 }

@@ -3,12 +3,12 @@
     "Stocking": {
       "title": "Stocking",
       "video": "stocking.gif",
-      "description": "Stocking is a web-app built in React meant to serve as a beginner's tool for looking at simple stock market data. The app currently uses Alpha Vantage's API to stocks' data."
+      "description": "Stocking is a web-app built in React for looking at basic stock market data. The app currently uses Alpha Vantage's free API to fetch stocks' data. Stocking is meant to be an unintimidating, simple tool for stock market newbies."
     },
     "League of Data": {
       "title": "League of Data",
       "video": "LoD.gif",
-      "description": "League of Data (LoD) is a web-app constructed with SQL, served with a Flask backend that's hosted on Heroku, and assembled with React on the frontend. LoD is a data-driven tool for determining ideal Champion (playable character) combinations in League of Legends, an internationally popular online tean game. The app uses Riot's own API to collect data on top-performing players' match histories. Using statistics from team compositions of those games, we determine which Champion combinations have the highest winrates."
+      "description": "League of Data (LoD) is a web-app constructed with SQL, served with a Flask backend that's hosted on Heroku, and assembled with React on the frontend. LoD is a data-driven tool for determining ideal Champion (playable character) combinations in League of Legends, an internationally popular online team game. The app uses Riot's own API to collect data on top-performing players' match histories. Using statistics from team compositions of those games, we determine which Champion combinations have the highest winrates."
     }
   }
 }

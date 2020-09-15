@@ -1,9 +1,9 @@
 import React, { createContext, useState } from 'react';
 
-export const ContentStateContext = createContext(null);
+export const ContentStateContext = createContext("nav-about");
 
 function ContentStateContextProvider(props) {
-  const [contentState, setContentState] = useState(null);
+  const [contentState, setContentState] = useState("nav-about");
   return (
     <ContentStateContext.Provider value={{contentState, setContentState}}>
       {props.children}

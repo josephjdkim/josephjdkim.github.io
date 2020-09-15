@@ -6,7 +6,7 @@
 }
 
 ::selection {
-  background-color: blue;
+  background-color: orange;
 }
 
 p {
@@ -78,6 +78,14 @@ body {
 
 .nav-item:hover {
   color: yellow;
+  cursor: pointer;
+}
+
+.nav-item-selected {
+  color: yellow;
+}
+
+.nav-item-selected:hover {
   cursor: pointer;
 }
 

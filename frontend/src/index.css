@@ -147,10 +147,6 @@ body {
 
 /* tablet portrait */
 @media screen and (max-width:900px) {
-  html {
-    font-size: 12px;
-  }
-  
   .top {
     width: 100%;
     flex-flow: column;

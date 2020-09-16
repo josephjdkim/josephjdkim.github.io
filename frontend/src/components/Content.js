@@ -6,9 +6,7 @@ import { ContentStateContext } from "../contexts/ContentStateContext.js"
 function Content() {
   const { contentState } = useContext(ContentStateContext);
 
-  useEffect(() => {
-
-  }, [contentState]);
+  useEffect(() => {}, [contentState]);
 
   if (contentState === "nav-about") {
     return (

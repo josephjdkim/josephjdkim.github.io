@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a9bd9162.chunk.css",
+    "main.js": "/static/js/main.2db4708a.chunk.js",
+    "main.js.map": "/static/js/main.2db4708a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c8a21426.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c8a21426.js.map",
+    "static/js/2.ba2dfc97.chunk.js": "/static/js/2.ba2dfc97.chunk.js",
+    "static/js/2.ba2dfc97.chunk.js.map": "/static/js/2.ba2dfc97.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6ed955b69bcc1c1f0cf089fd70319180.js": "/precache-manifest.6ed955b69bcc1c1f0cf089fd70319180.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.a9bd9162.chunk.css.map": "/static/css/main.a9bd9162.chunk.css.map",
+    "static/js/2.ba2dfc97.chunk.js.LICENSE.txt": "/static/js/2.ba2dfc97.chunk.js.LICENSE.txt",
+    "static/media/LoD.gif": "/static/media/LoD.aadb35f8.gif",
+    "static/media/linkedin.png": "/static/media/linkedin.ba99b606.png",
+    "static/media/linkedin_yellow.png": "/static/media/linkedin_yellow.c6305dd8.png",
+    "static/media/resume.pdf": "/static/media/resume.50fc73dc.pdf",
+    "static/media/stocking.gif": "/static/media/stocking.4e12818b.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8a21426.js",
+    "static/js/2.ba2dfc97.chunk.js",
+    "static/css/main.a9bd9162.chunk.css",
+    "static/js/main.2db4708a.chunk.js"
+  ]
+}

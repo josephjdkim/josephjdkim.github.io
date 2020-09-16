@@ -1,0 +1,217 @@
+* {
+  background-color: black;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+}
+
+html {
+  font-size: 8px;
+}
+
+::selection {
+  background-color: orange;
+}
+
+p {
+  font-size: 3.5rem;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 12px;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.logo {
+  width: 25%;
+  margin-top: 6rem;
+  margin-right: 5%;
+  margin-bottom: 14rem;
+  margin-left: 5%;
+  font-family: "Roboto";
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.links {
+  width: 40rem;
+  margin-top: 6rem;
+  margin-bottom: 14rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.link-img {
+  width: 6rem;
+}
+
+.middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.navigation {
+  width: 25%;
+  margin-right: 5%;
+  margin-left: 5%;
+  font-size: 4rem;
+}
+
+.nav-item {
+  color: white;
+}
+
+.nav-item:hover {
+  color: yellow;
+  cursor: pointer;
+}
+
+.nav-item-selected {
+  color: yellow;
+}
+
+.nav-item-selected:hover {
+  cursor: pointer;
+}
+
+.content {
+  width: 62%;
+  margin-right: 5%;
+}
+
+.about-text {
+  margin-bottom: 1rem;
+}
+
+.projects-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+
+.project-card {
+  width: 100%;
+  margin-bottom: 6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.project-video {
+  width: 48%;
+}
+
+.project-details {
+  width: 48%
+}
+
+.project-title {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-desc {
+  font-size: 2rem;
+}
+
+.more-projects {
+  font-size: 3.5rem;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.more-projects:hover {
+  color: yellow;
+}
+
+/* tablet portrait */
+@media screen and (max-width:900px) {
+  html {
+    font-size: 12px;
+  }
+  
+  .top {
+    width: 100%;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .middle {
+    width: 100%;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .logo {
+    width: auto;
+    margin-bottom: 2rem;
+  }
+
+  .links {
+    margin-top: 2rem;
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+    width: 32rem;
+  }
+
+  .navigation {
+    width: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .content {
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .project-card {
+    flex-wrap: wrap;
+    margin-bottom: 8rem;
+  }
+
+  .project-video {
+    width: 100%;
+  }
+
+  .project-details {
+    width: 100%;
+  }
+
+  .project-title {
+    margin-top: 2rem;
+  }
+
+  .project-desc {
+    width: 100%;
+    font-size: 2rem;
+  }
+
+}
+
+/* phone portrait */
+@media screen and (max-width:600px) {
+  
+}

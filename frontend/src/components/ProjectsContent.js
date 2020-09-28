@@ -9,7 +9,7 @@ function ProjectsContent() {
       { Object.keys(projectList).map((k) => {
         console.log(projectList[k]);
         return (
-          <ProjectCard title={projectList[k].title} video={projectList[k].video} description={projectList[k].description} />
+          <ProjectCard title={projectList[k].title} video={projectList[k].video} description={projectList[k].description} link={projectList[k].link} />
         )
       })}
       <a className="more-projects" href="https://www.github.com/josephjdkim" title="GitHub @josephjdkim" target="_blank" rel="noopener noreferrer">explore more projects</a>

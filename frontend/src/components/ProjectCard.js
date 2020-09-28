@@ -4,11 +4,16 @@ function ProjectCard(props) {
   const title = props.title;
   const video = props.video;
   const description = props.description;
+  const link = props.link;
   return (
     <div className="project-card">
-      <img className="project-video" src={require(`../projects/${video}`)} alt={video} />
+      <a className="project-video-link-container" href={link} title={title} target="_blank"rel="noopener noreferrer">
+        <img className="project-video" src={require(`../projects/${video}`)} alt={video} />
+      </a>
       <div className="project-details">
-        <p className="project-title">{title}</p>
+        <p className="project-title">
+          <a className="project-title-link" href={link} title={title} target="_blank"rel="noopener noreferrer">{title}</a>
+        </p>
         <p className="project-desc">{description}</p>
       </div>
     </div>

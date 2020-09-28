@@ -22,6 +22,10 @@ h1 {
   font-size: 6rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -118,8 +122,12 @@ body {
   align-items: flex-start;
 }
 
-.project-video {
+.project-video-link-container {
   width: 48%;
+}
+
+.project-video {
+  width: 100%;
 }
 
 .project-details {
@@ -129,6 +137,10 @@ body {
 .project-title {
   font-size: 3.5rem;
   margin-bottom: 0.5rem;
+}
+
+.project-title-link:hover {
+  color: yellow;
 }
 
 .project-desc {

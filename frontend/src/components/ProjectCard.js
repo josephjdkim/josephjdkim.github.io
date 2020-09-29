@@ -12,7 +12,7 @@ function ProjectCard(props) {
       </a>
       <div className="project-details">
         <p className="project-title">
-          <a className="project-title-link" href={link} title={title} target="_blank"rel="noopener noreferrer">{title}</a>
+          <a className="project-title-link hover-item" href={link} title={title} target="_blank"rel="noopener noreferrer">{title}</a>
         </p>
         <p className="project-desc">{description}</p>
       </div>

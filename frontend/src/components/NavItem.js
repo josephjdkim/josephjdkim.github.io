@@ -15,13 +15,13 @@ function NavItem(props) {
 
   if (id === contentState) {
     return (
-      <div className="nav-item-selected" id={id} onClick={navClick}>
+      <div className="nav-item-selected hover-item" id={id} onClick={navClick}>
         {props.children}
       </div>
     )
   ;}
   return (
-    <div className="nav-item" id={id} onClick={navClick}>
+    <div className="nav-item hover-item" id={id} onClick={navClick}>
       {props.children}
     </div>
   );

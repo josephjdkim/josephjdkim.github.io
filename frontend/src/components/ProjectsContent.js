@@ -12,7 +12,7 @@ function ProjectsContent() {
           <ProjectCard title={projectList[k].title} video={projectList[k].video} description={projectList[k].description} link={projectList[k].link} />
         )
       })}
-      <a className="more-projects" href="https://www.github.com/josephjdkim" title="GitHub @josephjdkim" target="_blank" rel="noopener noreferrer">explore more projects</a>
+      <a className="more-projects hover-item" href="https://www.github.com/josephjdkim" title="GitHub @josephjdkim" target="_blank" rel="noopener noreferrer">explore more projects</a>
     </div>
   );
 }

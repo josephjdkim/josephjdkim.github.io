@@ -193,6 +193,10 @@ body {
     margin-bottom: 8rem;
   }
 
+  .project-video-link-container {
+    width: 100%;
+  }
+
   .project-video {
     width: 100%;
   }

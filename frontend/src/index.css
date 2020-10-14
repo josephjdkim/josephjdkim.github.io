@@ -1,5 +1,4 @@
 * {
-  /* background-color: inherit; */
   color: #ffb700;
   margin: 0px;
   padding: 0px;
@@ -32,8 +31,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 12px;
-  background: rgb(255,254,244);
-  background: linear-gradient(270deg, rgba(255,254,244,1) 12%, rgba(255,254,248,1) 54%, rgba(255,255,255,1) 100%);
+  background: rgb(255,254,243);
+  background: linear-gradient(270deg, rgba(255,254,243,1) 4%, rgba(255,254,249,1) 14%, rgba(255,255,255,1) 100%);
 }
 
 .hover-item:hover {
@@ -54,6 +53,10 @@ body {
   margin-left: 5%;
   font-family: "Roboto";
   font-style: italic;
+}
+
+.logo:hover {
+  cursor: default;
 }
 
 .underline {
@@ -102,7 +105,6 @@ body {
 }
 
 .selected-item {
-  /* color:#d9b800; */
   color: #97d1e8;
   font-weight: bold;
 }
@@ -259,7 +261,6 @@ body {
 
   .project-desc {
     width: 100%;
-    /* font-size: 2rem; */
   }
 
 }

@@ -15,7 +15,7 @@ function NavItem(props) {
 
   if (id === contentState) {
     return (
-      <div className="nav-item-selected hover-item" id={id} onClick={navClick}>
+      <div className="nav-item selected-item hover-item" id={id} onClick={navClick}>
         {props.children}
       </div>
     )

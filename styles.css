@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, sans-serif;
+}
+
+*::selection {
+  background: yellow;
+}
+
+body {
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin-right: 2.5em;
+}
+
+li a {
+  text-decoration: underline;
+  color: black;
+}
+
+li a:hover {
+  color: white;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: max(10vh, 50px) 10vw;
+}
+
+.info {
+  order: -1;
+  align-self: flex-end;
+  font-size: 2em;
+  text-align: right;
+}
+
+.introduction {
+  font-size: clamp(1.35em, 5vw, 2em);
+  line-height: 1.25;
+  margin: max(25vh, 150px) 0 15vh;
+}
+
+.my-name {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.ext-links {
+  font-size: clamp(1.35em, 5vw, 2em);
+}

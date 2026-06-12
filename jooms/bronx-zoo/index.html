@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Bronx Zoo · June 13 · J + S</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --paper: #f6f0e2;
+  --paper-deep: #efe6d1;
+  --ink: #23301f;
+  --green: #2e4a2c;
+  --green-soft: #5a7351;
+  --tangerine: #e0641f;
+  --tangerine-soft: #f0a76f;
+  --gold: #c79a3b;
+  --line: #c9bda0;
+  --card: #fbf7ec;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Work Sans', sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.55;
+  font-size: 16px;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(199,154,59,.12), transparent),
+    repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(35,48,31,.012) 2px, rgba(35,48,31,.012) 4px);
+}
+.wrap { max-width: 680px; margin: 0 auto; padding: 0 20px 90px; }
+
+/* ---------- Masthead ---------- */
+header {
+  text-align: center;
+  padding: 56px 0 36px;
+  border-bottom: 3px double var(--line);
+  position: relative;
+}
+.eyebrow {
+  font-size: 12px;
+  letter-spacing: .28em;
+  text-transform: uppercase;
+  color: var(--green-soft);
+  font-weight: 600;
+}
+h1 {
+  font-family: 'Fraunces', serif;
+  font-weight: 800;
+  font-size: clamp(46px, 11vw, 76px);
+  line-height: .95;
+  color: var(--green);
+  margin: 14px 0 6px;
+  letter-spacing: -.01em;
+}
+h1 .amp {
+  font-style: italic;
+  font-weight: 400;
+  color: var(--tangerine);
+}
+.dateline {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: 19px;
+  color: var(--ink);
+  margin-top: 10px;
+}
+.ticket-row {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 22px;
+  flex-wrap: wrap;
+}
+.stamp {
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  border: 1.5px solid var(--green);
+  color: var(--green);
+  border-radius: 999px;
+  padding: 5px 13px;
+  background: var(--card);
+}
+.stamp.hot { border-color: var(--tangerine); color: var(--tangerine); }
+
+/* paw trail divider */
+.paws {
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 14px;
+  color: var(--gold);
+  margin: 34px 0 6px;
+  user-select: none;
+}
+
+/* ---------- Sections ---------- */
+section { margin-top: 26px; }
+h2 {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 27px;
+  color: var(--green);
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+h2 .no {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Work Sans', sans-serif;
+  color: var(--tangerine);
+  letter-spacing: .12em;
+}
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 20px 22px;
+  box-shadow: 0 2px 0 rgba(35,48,31,.06);
+}
+
+/* ---------- Vitals grid ---------- */
+.vitals {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: hidden;
+}
+.vital { background: var(--card); padding: 16px 18px; }
+.vital .k {
+  font-size: 11px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--green-soft);
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+.vital .v { font-weight: 600; font-size: 15.5px; }
+.vital .v small { font-weight: 400; color: var(--green-soft); display: block; font-size: 13px; }
+
+/* ---------- Timeline ---------- */
+.timeline { list-style: none; }
+.timeline li {
+  display: grid;
+  grid-template-columns: 74px 1fr;
+  gap: 16px;
+  padding: 13px 0;
+  border-bottom: 1px dashed var(--line);
+}
+.timeline li:last-child { border-bottom: 0; }
+.timeline .t {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: var(--tangerine);
+  white-space: nowrap;
+  padding-top: 1px;
+}
+.timeline .what strong { color: var(--green); font-weight: 600; }
+.timeline .what .sub { font-size: 13.5px; color: var(--green-soft); margin-top: 2px; }
+.star {
+  display: inline-block;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--tangerine);
+  border: 1px solid var(--tangerine-soft);
+  border-radius: 999px;
+  padding: 1px 8px;
+  margin-left: 6px;
+  vertical-align: 2px;
+  white-space: nowrap;
+}
+
+/* ---------- Plan tabs ---------- */
+.tabs { display: flex; gap: 8px; margin-bottom: 16px; }
+.tab {
+  flex: 1;
+  font-family: 'Fraunces', serif;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 12px 10px 10px;
+  text-align: center;
+  border: 1.5px solid var(--green);
+  border-radius: 12px;
+  background: transparent;
+  color: var(--green);
+  cursor: pointer;
+  transition: all .18s ease;
+}
+.tab small {
+  display: block;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  opacity: .75;
+  margin-top: 2px;
+}
+.tab[aria-selected="true"] {
+  background: var(--green);
+  color: var(--paper);
+  box-shadow: 0 3px 0 rgba(35,48,31,.25);
+}
+.plan { display: none; }
+.plan.active { display: block; animation: rise .35s ease both; }
+@keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.plan-note {
+  font-size: 13.5px;
+  color: var(--green-soft);
+  font-style: italic;
+  margin-top: 12px;
+}
+
+/* ---------- Feedings strip ---------- */
+.feedings {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 14px;
+}
+.feed {
+  text-align: center;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--card);
+  padding: 13px 6px;
+}
+.feed .emoji { font-size: 22px; }
+.feed .t { font-family: 'Fraunces', serif; font-weight: 700; color: var(--tangerine); font-size: 16px; }
+.feed .n { font-size: 12px; color: var(--green-soft); font-weight: 600; }
+
+/* ---------- Packing / day-of lists ---------- */
+.list { list-style: none; }
+.list li {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 11px 2px;
+  border-bottom: 1px dashed var(--line);
+  font-size: 15px;
+}
+.list li:last-child { border-bottom: 0; }
+.list .dot {
+  flex: 0 0 auto;
+  color: var(--tangerine);
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+/* ---------- Callouts ---------- */
+.callout {
+  border-left: 4px solid var(--tangerine);
+  background: linear-gradient(90deg, rgba(224,100,31,.07), transparent 70%);
+  padding: 14px 16px;
+  border-radius: 0 12px 12px 0;
+  font-size: 14.5px;
+  margin-top: 16px;
+}
+.callout strong { color: var(--tangerine); }
+.weather {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-top: 16px;
+}
+.weather .big { font-size: 38px; line-height: 1; }
+.weather .deg {
+  font-family: 'Fraunces', serif;
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--green);
+}
+.weather .desc { font-size: 13.5px; color: var(--green-soft); }
+
+footer {
+  margin-top: 60px;
+  text-align: center;
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: 16px;
+  color: var(--green-soft);
+}
+footer .heart { color: var(--tangerine); font-style: normal; }
+
+@media (max-width: 480px) {
+  .vitals { grid-template-columns: 1fr 1fr; }
+  .timeline li { grid-template-columns: 64px 1fr; gap: 12px; }
+  .card { padding: 17px 16px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="eyebrow">A JOOMS Production · Field Guide № 1</div>
+  <h1>Bronx<br>Zoo <span class="amp">day</span></h1>
+  <div class="dateline">Saturday, June 13, 2026 — Joseph &amp; Soomin</div>
+  <div class="ticket-row">
+    <span class="stamp">11:00 AM · Asia Gate In · Gate B Out</span>
+    <span class="stamp">Full Admission</span>
+    <span class="stamp hot">~90° · Pack Water</span>
+  </div>
+</header>
+
+<div class="paws">🐾 🐾 🐾</div>
+
+<section>
+  <h2><span class="no">01</span>The Vitals</h2>
+  <div class="vitals">
+    <div class="vital"><div class="k">Zoo hours</div><div class="v">10:00 – 5:30<small>exhibits close 5:00</small></div></div>
+    <div class="vital"><div class="k">Leave by</div><div class="v">9:15 AM<small>from Park Slope</small></div></div>
+    <div class="vital"><div class="k">Train</div><div class="v">2 → West Farms Sq<small>~55 min, no transfer</small></div></div>
+    <div class="vital"><div class="k">Lunch</div><div class="v">Packed picnic<small>no re-entry, eat in-park</small></div></div>
+  </div>
+  <div class="weather card" style="margin-top:14px;">
+    <div class="big">🌤️</div>
+    <div>
+      <span class="deg">90°F</span>
+      <div class="desc">Partly sunny, 30% chance of a shower. Hot one — monorail first before weather risk, the dark exhibits when the sun peaks.</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2><span class="no">02</span>Getting There</h2>
+  <div class="card">
+    <ul class="timeline">
+      <li><span class="t">9:15</span><div class="what"><strong>Leave Soomin's</strong><div class="sub">walk to Atlantic Av–Barclays Ctr</div></div></li>
+      <li><span class="t">9:30</span><div class="what"><strong>2 train uptown</strong> toward Wakefield–241 St<div class="sub">~55 min · same seat the whole way</div></div></li>
+      <li><span class="t">10:30</span><div class="what"><strong>Off at West Farms Sq–E Tremont Av</strong><div class="sub">walk ~3 blocks (5 min) up Boston Road</div></div></li>
+      <li><span class="t">10:40</span><div class="what"><strong>Asia Gate</strong> 🎟️<div class="sub">Boston Rd &amp; Bronx Park South · pedestrian entry, open 10–2 · ahead of the 11:00 window</div></div></li>
+    </ul>
+    <div class="callout"><strong>Confirm the Asia Gate that morning</strong> (bronxzoo.com/today or 718-220-5100). Fallback: stay on the 2 to Pelham Parkway, enter Gate B, run the day in reverse. And if you're running late, a cab from Park Slope is 25–35 min ($80–95) as a rescue.</div>
+  </div>
+</section>
+
+<section>
+  <h2><span class="no">03</span>The Plan</h2>
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" aria-selected="true" data-plan="b">Full Day<small>the headliners</small></button>
+    <button class="tab" role="tab" aria-selected="false" data-plan="a">Relaxed<small>three anchors</small></button>
+  </div>
+
+  <div class="plan active card" id="plan-b">
+    <ul class="timeline">
+      <li><span class="t">11:00</span><div class="what"><strong>Wild Asia Monorail</strong> 🚝<span class="star">Sooms #1</span><div class="sub">right inside the Asia Gate · ~20 min narrated loop · elephants, rhinos, red pandas · sit on the <em>left</em>, front-left if you can · first thing = shortest lines + rain-proofed</div></div></li>
+      <li><span class="t">11:45</span><div class="what"><strong>JungleWorld</strong><div class="sub">next to the monorail · indoor AC · tree kangaroos, gharials</div></div></li>
+      <li><span class="t">12:30</span><div class="what"><strong>World of Darkness</strong> 🦇<span class="star">Sooms #2</span><div class="sub">up the path by Himalayan Highlands · aye-aye, sand cats, vampire bats · no phone lights or flash — let your eyes adjust</div></div></li>
+      <li><span class="t">1:15</span><div class="what"><strong>Picnic</strong> 🧺<div class="sub">~45 min · African Plains lawn or shade by the Carter Giraffe Building, directly en route</div></div></li>
+      <li><span class="t">2:15</span><div class="what"><strong>Congo Gorilla Forest</strong> 🦍<div class="sub">the best thing in the park · ⅓-mile shaded forest trail — gorillas, okapis, mandrills</div></div></li>
+      <li><span class="t">3:05</span><div class="what"><strong>Sea lion feeding</strong> 🦭 at Astor Court<div class="sub">Congo → Zoo Center is a 5-min walk · penguins at 3:30 nearby for the double feature</div></div></li>
+      <li><span class="t">3:30</span><div class="what"><strong>Madagascar!</strong><div class="sub">right at Astor Court · indoor AC · lemurs, fosas, Nile crocs</div></div></li>
+      <li><span class="t">4:15</span><div class="what"><strong>Tiger Mountain → World of Birds</strong> 🐅<div class="sub">the eastbound finish — World of Birds is steps from Gate B · exhibits close at 5, out by 5:30</div></div></li>
+    </ul>
+  </div>
+
+  <div class="plan card" id="plan-a">
+    <ul class="timeline">
+      <li><span class="t">11:00</span><div class="what"><strong>Wild Asia Monorail</strong> 🚝<span class="star">Sooms #1</span><div class="sub">right inside the gate · sit-down and shaded</div></div></li>
+      <li><span class="t">12:00</span><div class="what"><strong>World of Darkness</strong> 🦇<span class="star">Sooms #2</span><div class="sub">slow, dark wander — no rush</div></div></li>
+      <li><span class="t">1:00</span><div class="what"><strong>Picnic</strong> 🧺<div class="sub">unhurried, African Plains lawn — this is the centerpiece, not a refuel</div></div></li>
+      <li><span class="t">2:30</span><div class="what"><strong>Congo Gorilla Forest</strong> 🦍<div class="sub">take your time — no rush through the trail</div></div></li>
+      <li><span class="t">3:30</span><div class="what"><strong>Drift east</strong><div class="sub">sea lions at Astor Court, Madagascar! — whatever you pass</div></div></li>
+      <li><span class="t">4:15</span><div class="what"><strong>Coffee, dessert, easy loop to Gate B</strong> ☕<div class="sub">exit whenever — park's open until 5:30</div></div></li>
+    </ul>
+    <p class="plan-note">Same gates, same picnic, same west-to-east direction as the full plan — switch any time without backtracking.</p>
+  </div>
+
+  <h2 style="margin-top:28px;"><span class="no">·</span>Feeding Times</h2>
+  <div class="feedings">
+    <div class="feed"><div class="emoji">🦭</div><div class="t">3:00</div><div class="n">Sea Lions</div></div>
+    <div class="feed"><div class="emoji">🐦</div><div class="t">3:00</div><div class="n">Bee-Eaters</div></div>
+    <div class="feed"><div class="emoji">🐧</div><div class="t">3:30</div><div class="n">Penguins</div></div>
+  </div>
+  <div class="callout">Each runs ~15 min. Re-check Saturday's schedule at <strong>bronxzoo.com/schedule</strong> that morning.</div>
+
+  <h2 style="margin-top:28px;"><span class="no">·</span>The Map</h2>
+  <a href="bz-spring-map-2026.png" target="_blank" style="display:block;">
+    <img src="bz-spring-map-2026.png" alt="Bronx Zoo 2026 map — Asia Gate at bottom-left, Bronx River Gate B at right, Congo Gorilla Forest at top-left" style="width:100%; border:1px solid var(--line); border-radius:14px; box-shadow:0 2px 0 rgba(35,48,31,.06); display:block;">
+  </a>
+  <div class="callout">In at the <strong>Asia Gate</strong> (bottom-left), out at <strong>Gate B</strong> (right). The day reads left to right — monorail &amp; World of Darkness first, Congo top-left after lunch, then sea lions and tigers on the way out. Tap to zoom.</div>
+</section>
+
+<div class="paws">🐾 🐾 🐾</div>
+
+<section>
+  <h2><span class="no">04</span>Picnic Basket</h2>
+  <div class="card">
+    <ul class="list">
+      <li><span class="dot">●</span>Two sandwiches or wraps — something that travels</li>
+      <li><span class="dot">●</span>Fruit + grazing snacks (grapes, berries, chips)</li>
+      <li><span class="dot">●</span>Drinks — non-alcoholic only (zoo rule)</li>
+      <li><span class="dot">●</span>Water, more than you think — it's a 90° day</li>
+      <li><span class="dot">●</span>Light blanket or two to sit on</li>
+      <li><span class="dot">●</span>Napkins / wet wipes</li>
+      <li><span class="dot">●</span>Small trash bag — pack out your own</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2><span class="no">05</span>Day-Of</h2>
+  <div class="card">
+    <ul class="list">
+      <li><span class="dot">●</span>Tickets downloaded on phone — confirm full admission</li>
+      <li><span class="dot">●</span>Broken-in walking shoes — 265 acres, hilly</li>
+      <li><span class="dot">●</span>Sunscreen + hats</li>
+      <li><span class="dot">●</span>Phones charged + battery pack</li>
+      <li><span class="dot">●</span>Confirm the Asia Gate is open (bronxzoo.com/today or call)</li>
+      <li><span class="dot">●</span>Check bronxzoo.com/today for closures &amp; feeding times</li>
+      <li><span class="dot">●</span>Check mta.info/alerts for 2 / L weekend work</li>
+      <li><span class="dot">●</span>Out the door by 9:15</li>
+    </ul>
+  </div>
+  <div class="callout" style="margin-top:18px;">
+    <strong>If the weather turns:</strong> World of Darkness, JungleWorld, and Madagascar! are climate-controlled — slow down and stretch them out. If it pours at lunch, eat under cover near the central dining spots. If rain closes the monorail at 11, flip the first stops — JungleWorld and World of Darkness first, then check back at the platform when it clears; it's all next to the entrance anyway.
+  </div>
+</section>
+
+<section>
+  <h2><span class="no">06</span>Getting Home</h2>
+  <div class="card">
+    <ul class="timeline">
+      <li><span class="t">🚪</span><div class="what"><strong>Exit Gate B</strong> — Bronx River entrance<div class="sub">walk ~12 min east to Pelham Parkway station</div></div></li>
+      <li><span class="t">2 ↓</span><div class="what"><strong>2 train south</strong> from Pelham Parkway</div></li>
+      <li><span class="t">L →</span><div class="what"><strong>Transfer at 14 St–Union Sq</strong><div class="sub">L to Bedford Av or Lorimer St — whichever's closer to Sutton St</div></div></li>
+      <li><span class="t">🏠</span><div class="what"><strong>Williamsburg</strong><div class="sub">~75–90 min door to door</div></div></li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  see you at the gorillas <span class="heart">♥</span><br>j + s · summer 2026
+</footer>
+
+</div>
+<script>
+// Plan tabs
+document.querySelectorAll('.tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(t => t.setAttribute('aria-selected', 'false'));
+    tab.setAttribute('aria-selected', 'true');
+    document.querySelectorAll('.plan').forEach(p => p.classList.remove('active'));
+    document.getElementById('plan-' + tab.dataset.plan).classList.add('active');
+  });
+});
+</script>
+</body>
+</html>

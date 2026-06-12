@@ -53,8 +53,11 @@ li a:hover {
 }
 
 .my-name {
-  font-size: 2em;
+  /* rem, not em: avoids compounding with the clamped .introduction size */
+  font-size: clamp(2.2rem, 12vw, 4rem);
   font-weight: bold;
+  display: inline-block;
+  white-space: nowrap;
 }
 
 .ext-links {
